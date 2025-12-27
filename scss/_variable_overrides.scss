@@ -1,14 +1,29 @@
+// colors
+$primary:   #4f6cff;
+$secondary: #ff8bd6;
+$success:   #3dff9a;
+$info:      #5ce1ff;
+$warning:   #ffe66d;
+$danger:    #ff4d6d;
+$light:     #eaeaf0;
+$dark:      #12131a;
+
+
+// options
+$enable-rounded: false;
+
+// border
+$border-width: 3px;
+$border-color:$dark;
+$border-color-translucent: $dark;
+
+// shadow
+$box-shadow: 6px 6px 0 $dark;
+$box-shadow-sm: 3px 3px 0 $dark;
+$box-shadow-lg: 8px 8px 0 $dark;
+$box-shadow-inset: inset 3 3 0 $dark;
+
+// typography
 $font-family-sans-serif: "Inter", system-ui, sans-serif;
 $headings-font-family: "Archivo Black", system-ui, sans-serif;
 $font-family-monospace: "JetBrains Mono", monospace;
-
-$enable-rounded: false;
-
-$border-width: 3px;
-$border-color:#000;
-$border-color-translucent: #000;
-
-$box-shadow: 6px 6px 0 #000;
-$box-shadow-sm: 3px 3px 0 #000;
-$box-shadow-lg: 8px 8px 0 #000;
-$box-shadow-inset: inset 3 3 0 #000;
