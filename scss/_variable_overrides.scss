@@ -11,6 +11,7 @@ $dark:      #12131a;
 
 // options
 $enable-rounded: false;
+$enable-dark-mode: false;
 
 // border
 $border-width: 3px;
@@ -24,6 +25,10 @@ $box-shadow-lg: 8px 8px 0 $dark;
 $box-shadow-inset: inset 3 3 0 $dark;
 
 // typography
-$font-family-sans-serif: "Inter", system-ui, sans-serif;
 $headings-font-family: "Archivo Black", system-ui, sans-serif;
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
 $font-family-monospace: "JetBrains Mono", monospace;
+
+// button
+$btn-box-shadow: none;
+$btn-focus-box-shadow: none;
